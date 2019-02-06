@@ -1,4 +1,139 @@
-@media screen tags, each with one of these max-widths: 980px, 768px and 640px.
+* {
+    /* box-sizing: border-box; */
+  } 
 
+  body {
+    color: #777777;
+    background-image: url('../images/light-grey-terrazzo.png');
+    margin: 0px;
+    /* height: 100%; */
+  }
 
-viewport
+section {
+    margin: auto;
+    width: 960px;
+    background-color: #ffffff;
+    /* position: relative; */
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+#leftsideofmenu {
+    float: left;
+    background-color: #4aaaa5;
+}
+
+#leftsideofmenu > h1 {
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+#rightsideofmenu {
+    float: right;
+    padding: 15px;
+    /* position: relative; */
+}
+
+#about, #portfolio, #contact {
+    float: left;
+    width: 80px;
+    text-align: center;
+    /* position: relative; */
+}
+
+#about, #portfolio {
+    border-right: 1px solid #dddddd;
+}
+
+#aboutme {
+    border-bottom: 2px solid #dddddd;
+}
+
+img {
+    float:left;
+    padding-right: 20px;
+}
+
+nav > section {
+    height: 57px;
+}
+
+p {
+    /* width: 760px; */
+    /* float: right; */
+    /* padding-top: 20px; */
+    line-height: 1.5em;
+}
+
+#maincontent {
+    /* background-color: #ffffff; */
+    border: 2px solid #dddddd;
+    height: 400px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 57px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+#container {
+    /* height: 100%; */
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 70px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    /* border-color: #4aaaa5; */
+    border: none;
+}
+
+table {
+    border: none;
+}
+
+@media screen and (max-width:980px) {
+ section {
+     width: 670px;
+ }
+} 
+
+@media screen and (max-width:768px) {
+    section {
+        width: 570px;
+    }
+} 
+
+@media screen and (max-width:640px) {
+    section {
+        width: 540px;
+    }
+} 
+
