@@ -78,6 +78,7 @@ p {
     border: 2px solid #dddddd;
     height: 400px;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 footer {
@@ -133,7 +134,15 @@ table {
 
 @media screen and (max-width:640px) {
     section {
-        width: 540px;
+        width: 100%;
+    }
+    
+    #rightsideofmenu {
+        padding: 0px auto;
+    }
+
+    #about, #portfolio, #contact {
+        width: 60px;
     }
 } 
 
